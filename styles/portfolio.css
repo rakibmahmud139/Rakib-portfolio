@@ -9,7 +9,7 @@
 
 .btn-primary {
     color: white;
-    font-weight: 800;
+    font-weight: 400;
     font-size: 20px;
     border: 0;
     padding: 18px 35px;
@@ -23,6 +23,19 @@
     background-image: url('../images/header_bg.png'), url('../images/developer.png');
     background-repeat: no-repeat;
     background-position: bottom right, left;
+
+
+}
+
+.con {
+    font-weight: 400;
+    font-size: 20px;
+    border: 0;
+    padding: 18px 35px;
+    height: 64px;
+    border-radius: 5px;
+    margin-left: 5px;
+    background-color: rgb(250, 233, 215);
 }
 
 /* header and navigation style */
@@ -194,15 +207,20 @@ section {
 .contact .section-title {
     text-align: left;
 }
-.contact input[type="text"],[type="email"], textarea{
+
+.contact input[type="text"],
+[type="email"],
+textarea {
     margin-bottom: 24px;
     border: 0;
     width: 100%;
-    padding:18px 30px;
+    padding: 18px 30px;
 }
-input{
+
+input {
     height: 64px;
 }
-.contact a{
+
+.contact a {
     text-decoration: none;
 }
